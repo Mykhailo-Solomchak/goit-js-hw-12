@@ -122,28 +122,29 @@
   margin-right: 8px;
 }
 
-.form-btn{
+.form-btn {
   width: 91px;
   border: none;
   background-color: #4E75FF;
   height: 40px;
   color: #fff;
   border-radius: 8px;
-  
+
 
 }
 
-.load-more{
+.load-more {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 125px;
-    border: none;
-    background-color: #4E75FF;
-    height: 40px;
-    color: #fff;
-    border-radius: 8px;
-    margin: 0 auto;
+  border: none;
+  background-color: #4E75FF;
+  height: 40px;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 
