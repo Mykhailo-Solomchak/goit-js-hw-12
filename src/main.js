@@ -37,12 +37,6 @@ async function searchImages(event) {
         }
         createGallery(data.hits);
 
-        const { height } = gallery.firstElementChild.getBoundingClientRect()
-        window.scrollBy({
-            top: height * 2,
-            behavior: "smooth",
-        });
-
         if (data.totalHits > 15) {
             showLoadMoreButton();
             totalPages = Math.ceil(data.totalHits / 15)
